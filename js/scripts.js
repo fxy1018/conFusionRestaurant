@@ -13,4 +13,12 @@ $(document).ready(function(){
         }
     });
 
+    $('#reserveForm').click(function(){
+        $('#reserveModal').modal('toggle')
+    });
+
+    $('#login').click(function(){
+        $('#loginModal').modal('toggle')
+    });
+
 });
